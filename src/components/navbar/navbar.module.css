@@ -1,0 +1,26 @@
+.navCountainer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.logout {
+  cursor: pointer;
+  background-color: #53c28b;
+  padding: 5px;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 3px;
+}
